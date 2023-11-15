@@ -13,7 +13,7 @@ app = dash.Dash(__name__)
 x = np.linspace(0, 10, 1000)
 global c
 c=0
-ruta="/home/ec2-user/magma-emg-fatiga/BaseDatos_EMG_Acc-20230304T150927Z-001/BaseDatos_EMG_Acc"
+ruta="BaseDatos_EMG_Acc-20230304T150927Z-001/BaseDatos_EMG_Acc"
 
 min_, max_ = (0,0)
 data = []
