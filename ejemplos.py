@@ -15,6 +15,8 @@ global c
 c=0
 ruta="BaseDatos_EMG_Acc-20230304T150927Z-001/BaseDatos_EMG_Acc"
 
+
+
 min_, max_ = (0,0)
 data = []
 data_=r.LR_file(0,ruta)
